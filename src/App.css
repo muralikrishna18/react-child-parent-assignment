@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: content-box;
+  padding: 0;
+}
+
+#book-card-container{
+  display:block;
+  width: fit-content;
+  border-radius: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px ;
+  
+ 
+}
+img{
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+#book-name-minute-read{
+ 
+  padding-right: 10px;
+}
+#book-name-dots{
+  padding-right: 10px;
+   text-align: end;
+  font-weight: bold;
+}
+#show-off{
+  padding-bottom: 12px;
+  background-color:hsl(175, 24%, 85%) ;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+span , p{
+  font-weight: 200;
+}
